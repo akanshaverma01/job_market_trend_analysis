@@ -19,29 +19,6 @@ Data Collection → Cleaning → EDA → SQL Analysis → Power BI Dashboard
 🛠️ Tools & Technologies
 ToolPurposePython (Pandas, Matplotlib, Seaborn)Data Cleaning & EDAJupyter NotebookDevelopment EnvironmentPostgreSQLSQL AnalysisPower BIInteractive DashboardGitHubVersion Control & Portfolio
 
-📁 Project Structure
-job-market-analysis/
-│
-├── data/
-│   ├── cleaned_jobs.csv          ← Cleaned main dataset
-│   └── skills_summary.csv        ← Pre-aggregated skills data
-│
-├── notebooks/
-│   ├── 01_cleaning_EDA.ipynb     ← Data cleaning & EDA
-│   
-│
-├── sql/
-│   └── analysis_queries.sql      ← All SQL queries
-│
-├── dashboard/
-│   ├── job_market_dashboard.pbix ← Power BI file
-│   ├── job_market_dashboard.pdf  ← Exported dashboard PDF
-│   ├── page1_market_overview.png
-│   ├── page2_skills_companies.png
-│   └── page3_fresher_focus.png
-│
-└── README.md
-
 
 💡 Key Insights
 🏙️ Location Insights
@@ -81,28 +58,3 @@ Accenture leads fresher hiring with 36 fresher openings
 Bangalore is the top city for freshers with 349 jobs
 Data Analytics accounts for 75.7% of fresher jobs vs DS at 24.3%
 92.7% of fresher jobs do NOT disclose salary — transparency is very low
-
-
-
-🔄 Project Workflow
-Raw Dataset (Naukri.com)
-        ↓
-Data Cleaning (Python)
-→ Removed duplicates & nulls
-→ Extracted role types from job titles
-→ Standardized city names
-→ Parsed experience ranges
-→ Created salary disclosure flag
-        ↓
-EDA & Visualization (Python)
-→ 8 detailed visualizations
-→ Role, city, skills, company analysis
-        ↓
-SQL Analysis (PostgreSQL)
-→ 11 business queries
-→ Verified insights from Python EDA
-        ↓
-Power BI Dashboard
-→ 3 interactive pages
-→ Slicers, KPI cards, charts
-→ Bookmark navigation
